@@ -1,7 +1,7 @@
 
 <div class="container-fluid">
 
-  <footer class="bg-dark text-center text-white">
+  <footer class="bg-white text-center text-dark">
   
     <img class="img-fluid" src="<?php echo get_template_directory_uri()?> /img/kw_logo.png" alt="">
     <div class="container p-4 pb-0">
@@ -22,19 +22,19 @@
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
     
             <h2 class="social-text">Follow Me</h2>
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/watch?v=pL_vTMBzKkI&t=46s"
+            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.youtube.com/watch?v=pL_vTMBzKkI&t=46s"
               role="button"><i class="fab fa-youtube"></i></a>
     
     
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/AskGreguy/" role="button"><i
+            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/AskGreguy/" role="button"><i
                 class="fab fa-facebook-f"></i></a>
     
     
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/greguy.jules_realtor/?hl=en"
+            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.instagram.com/greguy.jules_realtor/?hl=en"
               role="button"><i class="fab fa-instagram"></i></a>
     
     
-            <a class="btn btn-outline-light btn-floating m-1"
+            <a class="btn btn-outline-dark btn-floating m-1"
               href="https://www.linkedin.com/in/greguy-jules-b9985730/?originalSubdomain=ca" role="button"><i
                 class="fab fa-linkedin-in"></i></a>
           </div>
@@ -42,7 +42,7 @@
       
         <div class="copyright">
           © <?php the_time('Y')?> Copyright
-          <a class="text-white" href="http://edwinnord.com/"> Edwin Nord</a>
+          <a class="text-dark" href="http://edwinnord.com/"> Edwin Nord</a>
         </div>
       </div>
     </footer>
