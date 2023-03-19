@@ -1,16 +1,22 @@
 <?php
 
-function adv_theme_support() {
+
+
+
+
+function adv_theme_support()
+{
     register_nav_menus(array(
         'primary'  => __('Primary Menu'),
         'footer'   => __('Footer Menu')
     ));
 }
 
-add_action('after_setup_theme', 'adv_theme_support' );
+add_action('after_setup_theme', 'adv_theme_support');
 
- 
-function init_widget($id) {
+
+function init_widget($id)
+{
     register_sidebar(array(
         'name' => 'Box 1',
         'id'   => 'box1',
@@ -66,3 +72,10 @@ function init_widget($id) {
     ));
 }
 add_action('widgets_init', 'init_widget');
+
+
+add_theme_support('custom-header', array(
+    'video' => true,
+));
+
+

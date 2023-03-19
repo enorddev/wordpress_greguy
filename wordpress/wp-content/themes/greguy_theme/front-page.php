@@ -2,11 +2,14 @@
 
 <div class="p-5 text-center bg-image" style="
             background-image: url('<?php echo get_template_directory_uri() ?> /img/showcase1.jpg');
-            height: 500px;
+            height: 600px;
             background-position: bottom;
             /* background-size: cover; */
             background-attachment: fixed;
           ">
+
+
+
     <div class="mask" style="background-color: rgba(0, 0, 0, 0);">
         <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text">
@@ -22,8 +25,8 @@
 </header>
 
 <div class="container-fluid container-figure">
-    
-    <h3 class="h3"><q>Home is where your story begins. Let me help you start your next chapter.</q> </h3>
+    <h3 class="h3 head-heading"><q>Home is where your story begins. Let me help you start your next chapter.</q> </h3>
+
     <div class="row container-flex">
         <div class="col-md realtor">
             <img class="img-fluid" src="<?php echo get_template_directory_uri() ?> /img/greguy-1.jpg" alt="">
@@ -33,7 +36,7 @@
             <h5 class="h5">Residential Real Estate Broker</h5>
             <p class="p-0"><?php the_content() ?></p>
             <div class="btn-group-flex">
-                <a href="https://www.kwconnexion.com/en/brokers/greguy-jules/">
+                <a href="http://localhost/wordpress_greguy/wordpress/listings/">
                     <button type="button" class="btn btn-lg btn-outline-danger" data-mdb-ripple-color="dark">
                         <i class="fas fa-home"></i>
                         Listings
@@ -47,7 +50,7 @@
                     </button>
                 </a>
             </div>
-            
+
         </div>
         <div class="social-container">
 
@@ -72,7 +75,7 @@
     <div class="row blocks">
 
 
-        <div class="col-md">
+        <div class="col-md box-one active">
 
             <div class="box">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri() ?> /img/thumbnail1.jpg" alt="">
@@ -87,7 +90,7 @@
         </div>
 
 
-        <div class="col-md">
+        <div class="col-md box-two active">
 
             <?php if (is_active_sidebar('box2')) : ?>
                 <div class="box">
@@ -101,7 +104,7 @@
 
 
 
-        <div class="col-md">
+        <div class="col-md box-three active">
 
             <?php if (is_active_sidebar('box3')) : ?>
                 <div class="box">
@@ -151,23 +154,27 @@
         <div class="contact-form-wrapper  ">
 
             <form action="#" class="contact-form ">
-                <h5 class="title">Contact</h5>
-                <p>
+                <h5 class="title">Book An Appointment</h5>
+                <!-- <p>
                     Send Us A Message
-                </p>
+                </p> -->
                 <div>
                     <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" placeholder="Name" required>
                 </div>
                 <div>
                     <input type="email" class="form-control rounded border-white mb-3 form-input" placeholder="Email" required>
                 </div>
+
                 <div>
-                    <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Message" required>
-                        </textarea>
+                    <input type="phone" class="form-control rounded border-white mb-3 form-input" placeholder="Phone" required>
+                </div>
+
+                <div>
+                    <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Message" required></textarea>
                 </div>
                 <div class="submit-button-wrapper">
                     <button type="submit" class="btn btn-lg btn-outline-danger" data-mdb-ripple-color="dark">
-                        SEND MESSAGE
+                        Submit Form
                     </button>
 
                 </div>
@@ -176,17 +183,21 @@
     </div>
 
     <div class="contact-text col-md">
-        <h1 class="h1">Get in touch with us today and our team will assist you</h1>
-        <p>Our experts and developers would love to contribute their expertise and insights and help you today. Contact us to help you plan your next transaction, either buying or selling a home.</p>
-        <a href="https://www.kwconnexion.com/en/brokers/greguy-jules/">
+        <h1 class="h1">We look forward to hearing from you and helping you achieve your real estate goals.</h1>
+        <p>We are excited to help you with all your real estate needs. If you are interested in buying or selling a property, please don't hesitate to contact us.
+            We will do our best to accommodate your schedule and get back to you as soon as possible to confirm the appointment.
+        </p>
+        <!-- <a href="https://www.kwconnexion.com/en/brokers/greguy-jules/">
             <button type="button" class="btn btn-lg btn-outline-danger" data-mdb-ripple-color="dark">
                 Contact Us
             </button>
-        </a>
+        </a> -->
     </div>
 
 
 </div>
+
+
 
 
 <hr id="divider">
